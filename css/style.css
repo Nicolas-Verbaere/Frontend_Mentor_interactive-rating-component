@@ -1,0 +1,25 @@
+.container {
+    background-color: #141519;
+}
+
+.card {
+    background-color: #212832;
+}
+
+.title {
+    color: white;
+}
+
+.containt {
+    color: #4a515b;
+}
+
+.button {
+    background-color: #262f38;
+    color: #4a515b;
+}
+
+.buttonSubmit {
+    background-color: #f97813;
+    color: white;
+}
