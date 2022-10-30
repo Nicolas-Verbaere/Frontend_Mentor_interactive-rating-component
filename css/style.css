@@ -1,25 +1,62 @@
 .container {
     background-color: #141519;
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
 }
 
 .card {
     background-color: #212832;
+    width: 25em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    display: flex;
+    padding: 2em 2em;
+}
+
+.star {
+    background-color: #262f38;
+    padding: 0.9em;
+    border-radius: 50%;
 }
 
 .title {
     color: white;
+    margin-top: 0.6em;
+    font-size: 1.5em;
 }
 
 .containt {
     color: #4a515b;
+    margin-top: 0.9em;
+    font-size: 1em;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0; */
 }
 
 .button {
     background-color: #262f38;
     color: #4a515b;
+    border: #4a515b;
+    margin-top: 0.9em;
+    font-size: 0.8em;
+    padding: 0.9em;
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.6em;
 }
 
 .buttonSubmit {
     background-color: #f97813;
+    border: #f97813;
     color: white;
+    margin-top: 1.5em;
+    height: 2.5em;
+    border-radius: 15px;
 }
