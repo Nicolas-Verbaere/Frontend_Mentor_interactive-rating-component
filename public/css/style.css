@@ -11,8 +11,7 @@
     height: 20em;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
-    display: flex;
+    border-radius: 15px; 
     padding: 2em 2em;
 }
 
@@ -26,6 +25,10 @@
     color: white;
     margin-top: 0.6em;
     font-size: 1.5em;
+}
+
+.title__submit, .result, .gsmImg, .containt__submit{
+    text-align: center;
 }
 
 .containt {
@@ -60,4 +63,13 @@
     height: 2.5em;
     border-radius: 15px;
     text-transform: uppercase;
+}
+
+.result{
+    margin-top: 1em;
+    color: #f97813;
+    background-color: #262f38;
+    padding: 0.65em;
+    border-radius: 15px;
+  
 }
