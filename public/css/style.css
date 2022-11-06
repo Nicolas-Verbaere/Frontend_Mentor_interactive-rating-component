@@ -52,7 +52,12 @@
     padding: 0.9em;
     border-radius: 50%;
     width: 3.5em;
-    height: 3.6em;
+    height: 3.6em;  
+}
+
+.button:hover{
+    background-color: #f97813;
+    color: white;
 }
 
 .buttonSubmit {
@@ -63,6 +68,11 @@
     height: 2.5em;
     border-radius: 15px;
     text-transform: uppercase;
+}
+
+.buttonSubmit:hover{
+    background-color: white;
+    color:#f97813
 }
 
 .result{
