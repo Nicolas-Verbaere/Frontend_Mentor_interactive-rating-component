@@ -10,6 +10,12 @@ app.set("views", "views");
 app.use(express.static("public"));
 app.use(router);
 
+const middlewares = require ('../js/middlewares')
+
+app.use(middlewares.submitClickMiddleware);
+
+
+
 app.listen(port, () => {
     console.log(`server listening at http://localhost:${port}`);
 });
