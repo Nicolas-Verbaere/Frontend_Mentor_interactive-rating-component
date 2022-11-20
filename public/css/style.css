@@ -60,7 +60,7 @@
     color: white;
 }
 
-.buttonSubmit {
+#buttonSubmit {
     background-color: #f97813;
     border: #f97813;
     color: white;
@@ -70,7 +70,7 @@
     text-transform: uppercase;
 }
 
-.buttonSubmit:hover{
+#buttonSubmit:hover{
     background-color: white;
     color:#f97813
 }
