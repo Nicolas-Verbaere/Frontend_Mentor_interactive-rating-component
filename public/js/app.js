@@ -1,5 +1,5 @@
-const buttonSubmit = document.getElementsByClassName('buttonSubmit')
-buttonSubmit.addEventListener('click', function(){
-    alert('bonjour')
-})
+const buttonSubmit = document.getElementById('buttonSubmit')
+// buttonSubmit.addEventListener('click', function(){
+//     alert('bonjour')
+// })
 console.log(buttonSubmit)
