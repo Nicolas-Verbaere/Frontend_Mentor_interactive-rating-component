@@ -25,14 +25,23 @@
                 Please let us know how we did with your support request. All
                 feedback is appreciated to help us improve our offering!
             </p>
-            <div class="rating">
-                <button class="button button1" value="1">1</button>
-                <button class="button button2" value="2">2</button>
-                <button class="button button3" value="3">3</button>
-                <button class="button button4" value="4">4</button>
-                <button class="button button5" value="5">5</button>
-            </div>
-            <button class="buttonSubmit" onclick="location.href='submitPage.html';">SUBMIT</button>
+            <form action="submitPage.html" method="get">
+                <div class="rating">
+                    <input type="button" class="button button1" name="button1" id="button1" value="1">
+                    <input type="button" class="button button2" value="2">
+                    <input type="button" class="button button3" value="3">
+                    <input type="button" class="button button4" value="4">
+                    <input type="button" class="button button5" value="5">
+
+                    <!-- <button class="button button1" value="1">1</button>
+                    <button class="button button2" value="2">2</button>
+                    <button class="button button3" value="3">3</button>
+                    <button class="button button4" value="4">4</button>
+                    <button class="button button5" value="5">5</button> -->
+                </div>
+                <input type="button"  class="buttonSubmit" name="buttonSubmit" id="buttonSubmit"  onclick="location.href='submitPage.html';" value="SUBMIT">
+                <!-- <button class="buttonSubmit" onclick="location.href='submitPage.html';">SUBMIT</button> -->
+            </form>
         </div>
 
         <script src="../../back/index.js"></script>
