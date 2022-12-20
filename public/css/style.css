@@ -84,7 +84,12 @@
   
 }
 
-#button1, #button2, #button3, #button4, #button5{
+
+input[type="radio"]#button1, input[type="radio"]#button2, input[type="radio"]#button3, input[type="radio"]#button4, input[type="radio"]#button5{
+    display: none;
+  }
+
+input[type="radio"]#button1 + label, input[type="radio"]#button2 + label, input[type="radio"]#button3 + label, input[type="radio"]#button4 + label, input[type="radio"]#button5 + label  {
     background-color: #262f38;
     color: #4a515b;
     border: #4a515b;
@@ -94,4 +99,14 @@
     border-radius: 50%;
     width: 3.5em;
     height: 3.6em;  
+}
+
+input[type="radio"]#button1:hover + label, input[type="radio"]#button2:hover + label, input[type="radio"]#button3:hover + label, input[type="radio"]#button4:hover + label, input[type="radio"]#button5:hover + label  {
+    background-color: #f97813;
+    color: white;
+}
+
+input[type="radio"]#button1:checked+ label, input[type="radio"]#button2:checked+ label, input[type="radio"]#button3:checked + label, input[type="radio"]#button4:checked+ label, input[type="radio"]#button5:checked+ label  {
+    background-color: #f97813;
+    color: white;
 }

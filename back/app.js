@@ -5,7 +5,6 @@ function getValue() {
       console.log("valeur de l'input: ", input);
   }
 
-
 const button1 = document.querySelector('.button1');
 button1.addEventListener('click', event => {
       event.preventDefault();
