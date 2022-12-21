@@ -13,7 +13,15 @@
             <figure class="gsmImg">
                 <img src="../images/illustration-thank-you.svg" alt="gsm" />
             </figure>
-            <p class="result">You selected x out of 5</p>
+            <p class="result">You selected 
+                <script>
+                    let str = window.location.href;
+                    let url = new URL(str);
+                    let ratingButton = url.searchParams.get("ratingButton");
+                    console.log("ratingButton : ", ratingButton);  
+                    document.write(ratingButton)
+                </script> 
+                out of 5</p>
             <h1 class="title title__submit">Thank you!</h1>
             <p class="containt containt__submit">
                 We appreciate you rating the time to give a rating. If you ever
